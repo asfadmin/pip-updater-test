@@ -6,8 +6,8 @@ package_version = subprocess.run(['git', 'describe', '--tags'], stdout=subproces
 if "." not in package_version:
     package_version = "0.0.0"
 
-with open("dependancy-bumper/VERSION", "w+") as fh:
-    fh.write(str(package_version) + "\n")
+# with open("dependancy-bumper/VERSION", "w+") as fh:
+#     fh.write(str(package_version) + "\n")
 
 with open("README.md", "r") as fh:
     long_description = fh.read()

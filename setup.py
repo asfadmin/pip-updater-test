@@ -20,7 +20,7 @@ setuptools.setup(
     description="For testing pipelines with dependancy triggers",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/asfadmin/pip-updater-test.git",
+    url="https://github.com/asfadmin/pip-updater-test",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
